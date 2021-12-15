@@ -20,10 +20,10 @@ public class Exercise005 {
         }
 
         if (flag == 1)
-            System.out.print("\nThe above string is a pangram.");
+           return true;
         else
-            System.out.print("\nThe above string is not a pangram.");
-        return true;
+            return false;
+
     }
 
 }
