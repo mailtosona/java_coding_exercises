@@ -7,9 +7,9 @@ public class Exercise005 {
         int index = 0;
         int flag = 1;
         for (int i = 0; i < input.length(); i++) {
-            if ( input.charAt(i) >= 'A' && input.charAt(i) <= 'Z') {
+            if (input.charAt(i) >= 'A' && input.charAt(i) <= 'Z') {
                 index = input.charAt(i) - 'A';
-            }else if( input.charAt(i) >= 'a' && input.charAt(i) <= 'z') {
+            } else if (input.charAt(i) >= 'a' && input.charAt(i) <= 'z') {
                 index = input.charAt(i) - 'a';
             }
             alphaList[index] = true;
@@ -20,7 +20,7 @@ public class Exercise005 {
         }
 
         if (flag == 1)
-           return true;
+            return true;
         else
             return false;
 
